@@ -80,8 +80,10 @@ The ESP32 ADC converts the analog voltage into digital values: Analog Voltage ->
 
 Each sample represents the voltage level at a specific moment. The ADC resolution is 12-bit:
 
-|   0V     |   0    |
-|   3.3V   |  4095  |
+|  Analog Voltage   |  Digital Samples  |
+| ----------------- | ----------------- |
+|        0V         |         0         |
+|       3.3V        |        4095       |
 
 
 ### ⭐ 3.Waveform Rendering
